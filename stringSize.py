@@ -1,5 +1,7 @@
+import random
+
 def longitudString(str):
-	longitud = 0
-	for i in range(len(str)):
-		longitud += 1
+	longitud = random.randrange(0, 100)
+	while longitud != len(str):	
+		longitud = random.randrange(0, 100)
 	return longitud
